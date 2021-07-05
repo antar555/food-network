@@ -1,14 +1,19 @@
 *{
     font-family: 'Roboto Slab', serif;
     margin: 0;
-    padding: 0;
+    /* padding: 0; */
 }
 .navbar{
     /* height: 100px; */
    
     background-image: linear-gradient(blue, black);
+    /* position: fixed; */
+    /* width: 100%; */
+    overflow: hidden;
     position: fixed;
+    top: 0;
     width: 100%;
+    
 }
 .navbar ul{
     overflow: auto;
@@ -38,8 +43,46 @@
 }
 .navbar input{
     border: 2px solid black;
-    border-radius: 7px;
+    border-radius: 17px;
     padding:3px 17px;
     width: 129px;
     outline: none;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.half-width p{
+    /* margin-top: 30px; */
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+}
+.half-width img{
+    width: 80%;
+}
+
+
+.first-section{
+    margin-top: 60px;
+    display: flex;
+    /* border: 12px solid black; */
+}
+
+.orange{
+    color: green;
+}
+
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(blue, skyblue);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 400;
+    border-radius: 5px;;
 }
