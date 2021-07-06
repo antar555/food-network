@@ -70,13 +70,17 @@ h1{
 
 
 .first-section{
-    margin-top: 60px;
+    margin-top: 50px;
     display: flex;
+    background-image: linear-gradient(green,white);
     /* border: 12px solid black; */
+
+    
+    background-size: cover;
 }
 
 .green{
-    color: green;
+    color: goldenrod;
 }
 .orange{
     color: orange;
@@ -93,7 +97,8 @@ h1{
 }
 
 .second-section{
-    background-image: url(images/shapes/7.png);
+    background-image: url(images/shapes/Frame\ 58.jpg);
+    background-size: cover;
     /* background-image: linear-gradient(white, green); */
     /* background-repeat: no-repeat; */
     display:flex;
@@ -179,10 +184,12 @@ h3{
 }
 .subscribers{
     margin-top: 100px;
+    /* background-image: linear-gradient(green, yellow); */
 }
 
 .count-subscribers{
     /* border: 10px solid black; */
+    background-image: linear-gradient(green, yellow);
     height: 300px;
     width: 90%;
     margin-left: 4%;
@@ -213,6 +220,9 @@ h3{
     margin-top: 100px;
 }
 .contactus .contact{
+    background-image: url(images/shapes/Frame\ 57.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 
      /* border: 10px solid black; */
     /* background-color: blue; */
@@ -299,9 +309,11 @@ h3{
 }
 footer{
     margin-top: 150px;
-    background-color: navy;
+    background-color: rgb(84, 84, 128);
     height: 300px;
     overflow:hidden;
+   
+    
 }
 
 footer h3{
